@@ -14,14 +14,16 @@ Summary: Calculates the co-ranking matrix to assess the quality of a dimensional
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-coranking-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-coranking-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-coranking-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-coranking-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-coranking-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-coranking-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-coranking-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-coranking-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-coranking-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-coranking-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-coranking-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-coranking-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-coranking/badges/version.svg)](https://anaconda.org/conda-forge/r-coranking)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-coranking/badges/downloads.svg)](https://anaconda.org/conda-forge/r-coranking)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--coranking-green.svg)](https://anaconda.org/conda-forge/r-coranking) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-coranking.svg)](https://anaconda.org/conda-forge/r-coranking) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-coranking.svg)](https://anaconda.org/conda-forge/r-coranking) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-coranking.svg)](https://anaconda.org/conda-forge/r-coranking) |
 
 Installing r-coranking
 ======================
