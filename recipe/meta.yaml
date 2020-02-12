@@ -1,4 +1,4 @@
-{% set version = '0.1.4' %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/coRanking_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/coRanking/coRanking_{{ version }}.tar.gz
-  sha256: 7a601871e331a0a626cf44e66844ff86f15f449453d5eb7c1878ac2c53f09b0f
+  sha256: c940b615e88e123b7dd8afa356ae3e0a178cb089cf1f4ecbfff584d4d64e8880
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
