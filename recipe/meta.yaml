@@ -30,14 +30,11 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-rtsne
-    - r-scatterplot3d
   run:
     - r-base
-    - r-rtsne
-    - r-scatterplot3d
     - {{ native }}gcc-libs         # [win]
 
 test:
@@ -47,10 +44,11 @@ test:
 
 about:
   home: https://github.com/gdkrmr/coRanking
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Calculates the co-ranking matrix to assess the quality of a dimensionality reduction.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
